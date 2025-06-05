@@ -1,0 +1,23 @@
+# Core dependencies
+arxiv==2.1.0
+scholarly==1.7.11
+sentence-transformers==3.0.1
+chromadb==0.4.22
+ollama==0.1.7
+groq==0.4.2
+requests==2.31.0
+beautifulsoup4==4.12.2
+numpy==1.26.4  # Updated for Python 3.12
+pandas==2.2.0  # Updated for Python 3.12
+scikit-learn==1.4.0  # Updated for Python 3.12
+pyyaml==6.0.1
+schedule==1.2.0
+python-dotenv==1.0.0
+feedparser==6.0.10
+PyGithub==2.1.1
+tqdm==4.66.1
+networkx==3.2.1  # Updated
+
+# For web dashboard (optional)
+streamlit==1.29.0
+plotly==5.18.0

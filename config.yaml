@@ -1,0 +1,81 @@
+# Research Profile Configuration
+researcher:
+  name: "Muhammad Junaid Ali Asif Raja"
+  google_scholar_id: "9VTFIJcAAAAJ"
+  github_username: "junaidaliop"
+
+  # Primary research interests (used for filtering)
+  primary_interests:
+    - "optimization algorithms"
+    - "deep learning optimizers"
+    - "fractional calculus"
+    - "physics-informed neural networks"
+    - "neural ODEs"
+    - "computational neuroscience"
+    - "fractional differential equations"
+
+  # Keywords for advanced matching
+  keywords:
+    optimization:
+      - "Adam"
+      - "SGD"
+      - "momentum"
+      - "adaptive learning rate"
+      - "second-order optimization"
+      - "natural gradient"
+      - "quasi-Newton"
+    fractional:
+      - "Caputo derivative"
+      - "Riemann-Liouville"
+      - "fractional gradient"
+      - "memory effects"
+      - "non-local operators"
+    neural:
+      - "neural ODE"
+      - "continuous-time models"
+      - "dynamical systems"
+      - "stability analysis"
+
+# Paper sources configuration
+sources:
+  arxiv:
+    categories:
+      - "cs.LG"  # Machine Learning
+      - "cs.NE"  # Neural and Evolutionary Computing
+      - "math.OC"  # Optimization and Control
+      - "cs.AI"  # Artificial Intelligence
+      - "stat.ML"  # Machine Learning (Statistics)
+      - "math.NA"  # Numerical Analysis
+    max_results_per_category: 50
+
+  semantic_scholar:
+    fields_of_study:
+      - "Computer Science"
+      - "Mathematics"
+    max_results: 100
+
+# Recommendation settings
+recommendations:
+  daily_count: 10
+  similarity_threshold: 0.7
+  use_rag_reranking: true
+  include_explanations: true
+
+# LLM Configuration (free options)
+llm:
+  provider: "ollama"  # or "groq" for free tier
+  model: "mixtral:8x7b-instruct-v0.1-q4_0"
+  groq_api_key: ""  # Add if using Groq
+
+# Notification settings
+notifications:
+  enabled: true
+  email:
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    sender: ""  # Your email - will configure later
+    password: ""  # App password - will configure later
+    recipient: ""  # Where to send - will configure later
+
+  markdown_report: true
+  github_pages: false

@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data files
+data/
+*.pkl
+*.db
+*.json
+*.log
+
+# Credentials
+config_local.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports
+*.html
+*.pdf
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Any file with credentials
+*credentials*
+*secrets*
